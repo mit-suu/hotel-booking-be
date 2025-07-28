@@ -6,9 +6,9 @@ spring:
   application:
     name: booking-service
   datasource:
-    url: ${DB_MYSQL_URL:jdbc:mysql://root:TNNXlnWSrFPdBECuGMeoVuwtKkIywlFM@mysql.railway.internal:3306/railway}
-    username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:TNNXlnWSrFPdBECuGMeoVuwtKkIywlFM}
+    url: jdbc:mysql://switchback.proxy.rlwy.net:52890/railway?useSSL=false&serverTimezone=UTC
+    username: root
+    password: TNNXlnWSrFPdBECuGMeoVuwtKkIywlFM
   jpa:
     hibernate:
       ddl-auto: update
