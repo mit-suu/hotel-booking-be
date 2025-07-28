@@ -11,6 +11,7 @@
 	<groupId>net.blwsmartware</groupId>
 	<artifactId>booking-service</artifactId>
 	<version>1.0.1</version>
+	<packaging>jar</packaging>
 	<name>booking-service</name>
 	<description>booking-service</description>
 	<url/>
@@ -131,12 +132,15 @@
 	</dependencyManagement>
 
 	<build>
+
 		<plugins>
 			<plugin>
+
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
