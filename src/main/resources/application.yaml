@@ -1,7 +1,8 @@
 server:
   port: 8080
-  servlet:
-    context-path: /
+  context-path: /
+  forward-headers-strategy: framework
+
 
 spring:
   application:
@@ -42,8 +43,8 @@ spring:
       client:
         registration:
           google:
-            client-id: 1080645398579-rubp4bq65u82rompf4iu9l0vdv1knjul.apps.googleusercontent.com
-            client-secret: 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
+            client-id: 190811063148-vjjppcp0ne4f82i0jlcup8dp413id3q6.apps.googleusercontent.com
+            client-secret: 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
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
             scope:
               - openid
