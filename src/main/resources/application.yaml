@@ -80,7 +80,7 @@ config:
 
 vnpay:
   tmnCode: ZN9VA6NB
-  secretKey: WE2DLSFANLDEID0722ZG4H91GNLRDILI
+  secretKey: SZ6FAO4WYDQE2B33L2Q1M8O3OJRHLDT9
   paymentUrl: https://sandbox.vnpayment.vn/paymentv2/vpcpay.html
   apiUrl: https://sandbox.vnpayment.vn/merchant_webapi/api/transaction
   returnUrl: https://hotel.trantuanhiep.site/payment/return
