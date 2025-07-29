@@ -79,8 +79,8 @@ config:
     username: adminadmin
 
 vnpay:
-  tmnCode: SANDBOX01
-  secretKey: SANDBOX_SECRET_KEY
+  tmnCode: ZN9VA6NB
+  secretKey: WE2DLSFANLDEID0722ZG4H91GNLRDILI
   paymentUrl: https://sandbox.vnpayment.vn/paymentv2/vpcpay.html
   apiUrl: https://sandbox.vnpayment.vn/merchant_webapi/api/transaction
   returnUrl: https://hotel.trantuanhiep.site/payment/return
